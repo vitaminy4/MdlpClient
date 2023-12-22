@@ -25,6 +25,7 @@
             ErrorResponse = errorResponse;
         }
 
+
         private static string GetMessage(HttpStatusCode code, string message)
         {
             if (!string.IsNullOrWhiteSpace(message))
